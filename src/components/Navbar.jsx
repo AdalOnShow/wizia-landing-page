@@ -15,30 +15,32 @@ const Navbar = () => {
     }, [isMenuOpen]);
 
 
-    return (<header className="py-6 bg-teal-300">
-        <div
-            className="container mx-auto max-w-[1200px] flex justify-between items-center gap-2.5 px-6 md:px-10 xl:px-0">
-            <a href="/">
-                <img src="/logo.svg" alt="logo" className="w-16 h-[14px] md:w-[91px] md:h-5" />
-            </a>
+    return (
+        <header className="py-6 bg-teal-300 border-b border-[#183A40]">
+            <div
+                className="container mx-auto max-w-[1200px] flex justify-between items-center gap-2.5 px-6 md:px-10 xl:px-0">
+                <a href="/">
+                    <img src="/logo.svg" alt="logo" className="w-16 h-[14px] md:w-[91px] md:h-5" />
+                </a>
 
-            <div className="hidden md:flex justify-center items-center gap-4">
-                {navItems.map(({ name, href }, id) => (<a href={href} key={id}>
-                    <p className="font-workSans text-base hover:text-white/80 transition-all duration-200">{name}</p>
-                </a>))}
+                <div className="hidden md:flex justify-center items-center gap-4">
+                    {navItems.map(({ name, href }, id) => (<a href={href} key={id}>
+                        <p className="font-workSans text-base hover:text-white/80 transition-all duration-200">{name}</p>
+                    </a>))}
+                </div>
+
+                <div className="hidden md:flex justify-center items-center gap-3">
+                    <Button label="Book a Demo" bgColor />
+                    <Button label="Contact Us" />
+                </div>
+
+                <button onClick={toggleMenu} className="m-1 block md:hidden">
+                    <img src="/menu.svg" alt="menu" className="size-6" />
+                </button>
             </div>
 
-            <div className="hidden md:flex justify-center items-center gap-3">
-                <Button label="Book a Demo" bgColor />
-                <Button label="Contact Us" />
-            </div>
-
-            <button onClick={toggleMenu} className="m-1 block md:hidden">
-                <img src="/menu.svg" alt="menu" className="size-6" />
-            </button>
-        </div>
-
-        {isMenuOpen && <MobileNav toggleMenu={toggleMenu} />}
-    </header>)
+            {isMenuOpen && <MobileNav toggleMenu={toggleMenu} />}
+        </header>
+    )
 }
 export default Navbar
