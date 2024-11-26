@@ -4,6 +4,7 @@ import Brands from "./sections/Brands.jsx";
 import Service from "./sections/Service.jsx";
 import Train from "./sections/Train.jsx";
 import Reviews from "./sections/Reviews.jsx";
+import Improvement from "./sections/Improvement.jsx";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Service />
             <Train />
             <Reviews />
+            <Improvement />
         </main>
     )
 }

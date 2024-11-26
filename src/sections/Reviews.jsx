@@ -1,23 +1,7 @@
 import { useState } from "react";
+import { reviews } from "../constants/index.js";
 
 const Carousel = () => {
-    const reviews = [
-        {
-            content: "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
-            author: "John Doe",
-            title: "Chief Strategy Officer @ Company",
-        },
-        {
-            content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ab molestias recusandae ducimus mollitia quibusdam",
-            author: "Sharif Adal",
-            title: "Font-End Web Developer",
-        },
-        {
-            content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint veniam voluptatum facilis blanditiis",
-            author: "Marina Subah",
-            title: "Student",
-        },
-    ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
