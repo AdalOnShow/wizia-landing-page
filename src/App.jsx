@@ -3,6 +3,7 @@ import Hero from "./sections/Hero.jsx";
 import Brands from "./sections/Brands.jsx";
 import Service from "./sections/Service.jsx";
 import Train from "./sections/Train.jsx";
+import Reviews from "./sections/Reviews.jsx";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Brands />
             <Service />
             <Train />
+            <Reviews />
         </main>
     )
 }
