@@ -1,4 +1,4 @@
-import { brandsLogos } from "./index.js";
+import { brandsLogos } from "../constants/index.js";
 
 const Brands = () => {
     return (

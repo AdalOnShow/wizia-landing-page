@@ -16,7 +16,7 @@ const Navbar = () => {
 
 
     return (
-        <header className="py-6 bg-teal-300 border-b border-[#183A40]">
+        <header className="py-6 border-b border-[#183A40]">
             <div
                 className="container mx-auto max-w-[1200px] flex justify-between items-center gap-2.5 px-6 md:px-10 xl:px-0">
                 <a href="/">
