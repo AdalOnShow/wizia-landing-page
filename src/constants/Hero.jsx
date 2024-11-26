@@ -13,7 +13,7 @@ const Hero = () => {
 
                 <p className="font-light font-workSans text-lg md:text-xl pt-2.5 text-center md:text-left md:max-w-[470px]">Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</p>
 
-                <Button label="Sign Up for the Beta" bgColor bigBtn className="mt-6" />
+                <Button label="Sign Up for the Beta" bgColor bigBtn className="mt-6 button-shadow" />
             </div>
         </section>
     )

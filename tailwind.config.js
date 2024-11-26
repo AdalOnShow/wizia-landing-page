@@ -17,6 +17,9 @@ export default {
                     200: "#07292F",
                     300: "#002228",
                 }
+            },
+            shadows: {
+                "button-shadow": "0px 0px 16px 0px #53FFFC33",
             }
         },
     },
