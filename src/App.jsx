@@ -6,6 +6,7 @@ import Train from "./sections/Train.jsx";
 import Reviews from "./sections/Reviews.jsx";
 import Improvement from "./sections/Improvement.jsx";
 import GetStarted from "./sections/GetStarted.jsx";
+import Footer from "./sections/Footer.jsx";
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
             <Reviews />
             <Improvement />
             <GetStarted />
+            <Footer />
         </main>
     )
 }
