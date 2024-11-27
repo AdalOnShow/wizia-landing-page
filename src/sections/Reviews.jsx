@@ -18,7 +18,7 @@ const Carousel = () => {
     };
 
     return (
-        <section className="py-20 md:pt-[96px] md:pb-20 px-4">
+        <section className="py-20 md:pt-[96px] md:pb-20 px-4" id="customers">
             <div className="container mx-auto max-w-[1200px] relative">
                 {/* Slides */}
                 {<div className="overflow-hidden rounded-lg flex-center">
@@ -41,13 +41,13 @@ const Carousel = () => {
                 {/* Controls */}
                 <button
                     onClick={prevSlide}
-                    className="hidden sm:block absolute top-1/2 left-0 -translate-y-1/2 bg-[#1e3e43] p-3 rounded-[8px] hover:bg-teal-200 transition-all duration-200"
+                    className="hidden sm:block absolute top-1/2 left-0 -translate-y-1/2 bg-[#1e3e43] p-3 rounded-[8px] hover:bg-teal-200 hover:scale-110 transition-all duration-200"
                 >
                     <img src="/arrow.svg" alt="arrow" className="rotate-180" />
                 </button>
                 <button
                     onClick={nextSlide}
-                    className="hidden sm:block absolute top-1/2 right-0 -translate-y-1/2 bg-[#1e3e43] p-3 rounded-[8px] hover:bg-teal-200 transition-all duration-200"
+                    className="hidden sm:block absolute top-1/2 right-0 -translate-y-1/2 bg-[#1e3e43] p-3 rounded-[8px] hover:bg-teal-200 hover:scale-110 transition-all duration-200"
                 >
                     <img src="/arrow.svg" alt="arrow" className="" />
                 </button>

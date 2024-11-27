@@ -1,6 +1,6 @@
 const Improvement = () => {
     return (
-        <section className="px-6">
+        <section className="px-6" id="pricing">
             <div
                 className="container mx-auto max-w-[1344px] bg-[url(/Improvement-bg.png)] bg-cover bg-right bg-no-repeat p-6 md:pt-[49px] lg:pt-[69px] md:pb-[70px] lg:pb-[92px] lg:px-[72px] rounded-[24px] relative">
                 <div className="flex flex-col items-start justify-start max-w-[600px]">

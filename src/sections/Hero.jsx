@@ -2,7 +2,7 @@ import Button from "../components/Button.jsx";
 
 const Hero = () => {
     return (
-        <section className="bg-[url(/hero-bg.png)] bg-cover bg-no-repeat bg-center">
+        <section className="bg-[url(/hero-bg.png)] bg-cover bg-no-repeat bg-center" id="hero">
             <div className="max-w-[1200px] py-[110px] container mx-auto flex flex-col justify-center items-center md:items-start px-4 xl:px-0">
                 <h4 className="text-2xl font-normal text-teal-50 tracking-[5%]">AI SDRs (aiDRs)</h4>
 

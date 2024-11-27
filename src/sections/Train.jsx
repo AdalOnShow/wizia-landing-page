@@ -1,6 +1,6 @@
 const Train = () => {
     return (
-        <section className="px-6">
+        <section className="px-6" id="about">
             <div
                 className="container mx-auto max-w-[1344px] bg-[url(/train-bg.png)] bg-cover bg-no-repeat p-8 md:py-[114px] rounded-[24px] relative flex-center">
                 <div className=" relative -right-0 lg:-right-20 xl:-right-40 ">

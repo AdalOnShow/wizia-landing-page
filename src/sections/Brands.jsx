@@ -8,7 +8,7 @@ const Brands = () => {
 
                 <div className="flex-center flex-wrap mt-6 mx-4 md:mx-0 md:gap-8">
                     {brandsLogos.map(({ id, img }) => (
-                        <img key={id} src={img} alt={id} className="w-[110.77px] h-[55.38px] sm:w-[128px] sm:h-16" />
+                        <img key={id} src={img} alt={id} className="w-[110.77px] h-[55.38px] sm:w-[128px] sm:h-16 hover:scale-105 transition-all duration-200" />
                     ))}
                 </div>
             </div>
