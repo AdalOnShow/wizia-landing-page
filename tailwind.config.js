@@ -18,8 +18,8 @@ export default {
                     300: "#002228",
                 }
             },
-            shadows: {
-                "button-shadow": "0px 0px 16px 0px #53FFFC33",
+            dropShadow: {
+                "button-shadow": "0px 0px 16px 0px rgba(83, 255, 252, 0.2)",
             }
         },
     },
